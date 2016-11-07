@@ -17,33 +17,8 @@ function createCard() {
 
 
 function add(){
-	createCard();
 	document.getElementById("input1").value = '';
+	createCard();
 }
 
 document.getElementById("createButton").addEventListener("click", add);
-// var outputDiv = document.getElementById("output");
-
-// function deleteCard(card){
-// 	card.remove();
-// }
-
-
-// function buildCard(){
-// 	outputDiv.innerHTML += 
-// 	"<section class='cards'>"
-// 	 + document.getElementById("textInput").value 
-// 	 + "<button class='deleteBtns'>" + "Delete" + "</button>" 
-// 	 + "</section>";
-// }
-
-
-
-
-// function addCard(){
-// 	buildCard();
-// 	document.getElementById("textInput").value = '';
-// }
-
-
-// document.getElementById("createBtn").addEventListener("click", addCard);
